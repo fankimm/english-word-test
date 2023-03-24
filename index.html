@@ -51,7 +51,7 @@
       }
     </style>
     <script>
-      const q = [
+      const test = [
         { key: "regular", value: "정기적인, 단골의" },
         { key: "object", value: "	반대하다, 물건" },
         { key: "appreciation", value: "감사, 진가, 감상" },
@@ -79,19 +79,30 @@
       const handlePrint = () => {
         window.print();
       };
-      const handleCreate = () => {
-        const tbody = document.querySelector("tbody");
-        const trToRemove = document.querySelectorAll("tr").forEach((r) => {
+      const initTable = () => {
+        document.querySelectorAll("tr").forEach((r) => {
           r.remove();
         });
-        const quest = q.map((i) => {
+      };
+      const handleCreate = () => {
+        const tbody = document.querySelector("tbody");
+        initTable();
+        let seed = [];
+        for (; seed.length < test.length / 2; ) {
+          const randomNumber = Math.floor(Math.random() * test.length) + 1;
+          if (!seed.includes(randomNumber)) {
+            seed.push(randomNumber);
+          }
+        }
+        console.log(seed.sort((a, b) => a - b));
+        const quest = test.map((i, idx) => {
           const t = Math.floor(Math.random() * 10);
-          if (t > 4) {
+          if (seed.includes(idx + 1)) {
             return i.key;
           }
           return i.value;
         });
-        quest.sort(() => Math.random() - 0.5)
+        quest.sort(() => Math.random() - 0.5);
         quest.forEach((item, idx) => {
           const temp = tbody.insertRow();
           const noCell = temp.insertCell(0);
@@ -110,13 +121,21 @@
         <button onclick="handlePrint()">출력</button>
       </div>
     </div>
-    <div style="display: flex; justify-content: space-around; width: 280px;margin-bottom: 20px;margin-left: auto;">
+    <div
+      style="
+        display: flex;
+        justify-content: space-around;
+        width: 280px;
+        margin-bottom: 20px;
+        margin-left: auto;
+      "
+    >
       <div>이름 :</div>
       <div>틀린갯수 :</div>
     </div>
     <table>
       <tbody></tbody>
     </table>
-    <h1 style="text-align: center;">☺️ 참 잘했어요 ☺️</h1>
+    <h1 style="text-align: center">☺️ 참 잘했어요 ☺️</h1>
   </body>
 </html>
