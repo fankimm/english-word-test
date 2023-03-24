@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        width: 210mm;
+        height: 297mm;
+        padding: 20px;
+        border: 2px solid rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+      }
+      table {
+        width: 100%;
+        border: 1px solid #444444;
+        border-collapse: collapse;
+        table-layout: auto;
+        margin-bottom: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #444444;
+        padding: 3px;
+        padding-left: 10px;
+      }
+
+      @media print {
+        .btn-container {
+          display: none;
+        }
+      }
+      .title-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      button {
+        height: 30px;
+        width: 55px;
+        margin-right: 10px;
+        border-radius: 20px;
+        background: #1890ff;
+        border: none;
+        color: white;
+      }
+      button:hover {
+        background: #1890ffbb;
+      }
+    </style>
+    <script>
+      const q = [
+        { key: "regular", value: "정기적인, 단골의" },
+        { key: "object", value: "	반대하다, 물건" },
+        { key: "appreciation", value: "감사, 진가, 감상" },
+        { key: "environmentally", value: "환경적으로" },
+        {
+          key: "organize",
+          value: "	조직하다, (체계, 시스템 등을) 갖추도록 하다",
+        },
+        { key: "inspector", value: "검사자, 검사관" },
+        { key: "insurance", value: "보험" },
+        { key: "focus", value: "집중시키다, 집중하다, 초점" },
+        { key: "misunderstand", value: "오해하다" },
+        { key: "narrow", value: "(범위 등을) 좁히다, 좁아지다, 좁은, 한정된" },
+        { key: "investor", value: "투자자" },
+        { key: "proper", value: "적당한, 타당한" },
+        { key: "unfortunately", value: "불행하게도, 유감스럽게도" },
+        { key: "appear", value: "나타나다, ~인 것같이 보이다" },
+        { key: "management", value: "(집합적) 경영(진), 관리" },
+        { key: "unlimited", value: "무제한의" },
+        { key: "surely", value: "틀림없이, 꼭" },
+        { key: "introduce", value: "소개하다, 발표하다" },
+        { key: "workforce", value: "전 종업원, 노동 인력" },
+        { key: "urgent", value: "긴급한, 절박한" },
+      ];
+      const handlePrint = () => {
+        window.print();
+      };
+      const handleCreate = () => {
+        const tbody = document.querySelector("tbody");
+        const trToRemove = document.querySelectorAll("tr").forEach((r) => {
+          r.remove();
+        });
+        const quest = q.map((i) => {
+          const t = Math.floor(Math.random() * 10);
+          if (t > 4) {
+            return i.key;
+          }
+          return i.value;
+        });
+        quest.sort(() => Math.random() - 0.5)
+        quest.forEach((item, idx) => {
+          const temp = tbody.insertRow();
+          const noCell = temp.insertCell(0);
+          noCell.innerText = idx + 1;
+          temp.insertCell(1).innerText = item;
+          temp.insertCell(2).innerHTML = `<div style="width:300px"><div>`;
+        });
+      };
+    </script>
+  </head>
+  <body>
+    <div class="title-container">
+      <h1>영단어 시험</h1>
+      <div class="btn-container">
+        <button onclick="handleCreate()">생성</button>
+        <button onclick="handlePrint()">출력</button>
+      </div>
+    </div>
+    <div style="display: flex; justify-content: space-around; width: 280px;margin-bottom: 20px;margin-left: auto;">
+      <div>이름 :</div>
+      <div>틀린갯수 :</div>
+    </div>
+    <table>
+      <tbody></tbody>
+    </table>
+    <h1 style="text-align: center;">☺️ 참 잘했어요 ☺️</h1>
+  </body>
+</html>
