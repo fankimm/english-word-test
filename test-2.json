@@ -1,0 +1,25 @@
+[
+  { "key": "manufacturer", "value": "제조회사, 제조업자" },
+  { "key": "quarter", "value": "(1년의)4분의 1, 4분의 1" },
+  { "key": "presently", "value": "현재" },
+  { "key": "attach", "value": "붙이다, 첨부하다" },
+  { "key": "purpose", "value": "목적, 의도" },
+  { "key": "written", "value": "씌여진, 문어의" },
+  { "key": "therefore", "value": "그러므로" },
+  { "key": "invest", "value": "투자하다" },
+  { "key": "schedule", "value": "예정(표), 계획, 예정하다" },
+  {
+    "key": "routine",
+    "value": "일상의, 정기적인, 틀에박힌, 일과, 판에 박힌 일"
+  },
+  { "key": "lower", "value": "(양,가격을) 줄이다, 떨어뜨리다, 하급의" },
+  { "key": "mention", "value": "언급하다, 언급" },
+  { "key": "status", "value": "상태, 지위, 신분" },
+  { "key": "specific", "value": "명확한, 구체적인" },
+  { "key": "research", "value": "연구하다, 조사하다, 연구, 조사" },
+  { "key": "negotiate", "value": "협상하다, 교섭하다" },
+  { "key": "successive", "value": "연속하는, 계속적인" },
+  { "key": "occupy", "value": "(장소, 직책등을) 차지하다, 점유하다" },
+  { "key": "training", "value": "훈련, 교육" },
+  { "key": "talented", "value": "재능이 있는, 유능한" }
+]
