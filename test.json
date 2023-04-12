@@ -1,82 +1,30 @@
-[
-  {
-    "key": "outline",
-    "value": "윤곽을 그리다, 개요를 작성하다, 윤곽, 개요"
-  },
-  {
-    "key": "notice",
-    "value": "통지, 공고, 주의하다, 알아채다"
-  },
-  {
-    "key": "step",
-    "value": "단계, 조치, 수단"
-  },
-  {
-    "key": "respond",
-    "value": "반응하다, 응답하다"
-  },
-  {
-    "key": "occur",
-    "value": "일어나다, 발생하다"
-  },
-  {
-    "key": "suggestion",
-    "value": "제안, 암시"
-  },
-  {
-    "key": "total",
-    "value": "합계, 총액, 전체의"
-  },
-  {
-    "key": "oppose",
-    "value": "반대하다"
-  },
-  {
-    "key": "advertisement",
-    "value": "광고"
-  },
-  {
-    "key": "prefer",
-    "value": "선호하다, 더 좋아하다"
-  },
-  {
-    "key": "economy",
-    "value": "경제, 절약"
-  },
-  {
-    "key": "athletic",
-    "value": "강건한, 운동의"
-  },
-  {
-    "key": "questionnaire",
-    "value": "설문지, 조사표, 질문서를 보내다"
-  },
-  {
-    "key": "forecast",
-    "value": "(날씨의)예보, 예상, 전망, 예상하다, 예보하다"
-  },
-  {
-    "key": "accidentally",
-    "value": "실수로, 우연히"
-  },
-  {
-    "key": "violate",
-    "value": "위반하다, 방해하다"
-  },
-  {
-    "key": "motivation",
-    "value": "동기, 자극"
-  },
-  {
-    "key": "superb",
-    "value": "최고의, 훌륭한"
-  },
-  {
-    "key": "tidy",
-    "value": "단정한, 말쑥한, 깔끔한"
-  },
-  {
-    "key": "ingredient",
-    "value": "구성 요서, 성분, (음식)재료"
-  }
-]
+[{"key":"seating","value":"(집합적) 좌석, 좌석 배열"},
+{"key":"responsibility","value":"책임"},
+{"key":"simply","value":"간단히 말해서"},
+{"key":"minimize","value":"최소(최저)로 하다"},
+{"key":"sign","value":"부호, 신호, 표시, 서명하다"},
+{"key":"skilled","value":"숙련된"},
+{"key":"fairly","value":"상당히, 공평하게"},
+{"key":"monitor","value":"감시하다, 관리하다, 모니터"},
+{"key":"stopover","value":"단기 체류(지), 도중 하차"},
+{"key":"ideal","value":"이상적인, 이상"},
+{"key":"overprice","value":"비싼 값을 매기다"},
+{"key":"locate","value":"(위치를) 정하다"},
+{"key":"supply","value":"공급, 비품, 공급하다, 제공하다"},
+{"key":"overall","value":"전부의, 전체의, 전반적으로"},
+{"key":"reject","value":"거절하다, 거부하다"},
+{"key":"operate","value":"작동하다, 움직이다"},
+{"key":"landscape","value":"전망, 조경, 풍경"},
+{"key":"prepare","value":"준비하다, 각오하다"},
+{"key":"equipment","value":"장비, 설비, 비품"},
+{"key":"remarkable","value":"놀랄만한, 뛰어난"},
+{"key":"identification","value":"신원확인, 동일함"},
+{"key":"strategic","value":"전략적인"},
+{"key":"uncover","value":"발견하다, 폭로하다"},
+{"key":"insight","value":"식견, 통찰력"},
+{"key":"generally","value":"일반적으로, 보통"},
+{"key":"volunteer","value":"지원하다, 지원자, 자원 봉사자"},
+{"key":"material","value":"재료, 물질"},
+{"key":"official","value":"간부, 공무원, 공식적인"},
+{"key":"protective","value":"보호하는"},
+{"key":"prevent","value":"예방하다, 방해하다"}]
