@@ -1,0 +1,22 @@
+[
+  { "key": "applicant", "value": "지원자, 신청자" },
+  { "key": "additional", "value": "추가의, 부가적인" },
+  { "key": "nearly", "value": "거의, 대략" },
+  { "key": "assign", "value": "배정하다, 할당하다" },
+  { "key": "charge", "value": "요금, 청구 금액, 의무, 청구하다" },
+  { "key": "complicated", "value": "복잡한, 이해하기 어려운" },
+  { "key": "closely", "value": "밀접하게, 자세하게" },
+  { "key": "install", "value": "설치하다, 장치하다" },
+  { "key": "compliance", "value": "(명령, 법규의) 준수" },
+  { "key": "considerable", "value": "상당한" },
+  { "key": "officially", "value": "공식적으로" },
+  { "key": "attain", "value": "(목표를) 달성하다" },
+  { "key": "exclusive", "value": "독점적인, 유일한" },
+  { "key": "highly", "value": "매우, 몹시" },
+  { "key": "conduct", "value": "(업무 등을) 수행하다, 처리하다, 행위" },
+  { "key": "growth", "value": "발전, 발달, 증대" },
+  { "key": "experienced", "value": "숙련된, 경험있는" },
+  { "key": "fit", "value": "(치수가 ~에)꼭 맞다, 적합하다, 적당한, 꼭 맞는" },
+  { "key": "guarantee", "value": "보증(서), 담보(물), 보장하다" },
+  { "key": "incidental", "value": "부수적인, 결과적인, 부수적인 일, 사건" }
+]
