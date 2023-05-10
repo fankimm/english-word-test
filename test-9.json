@@ -1,0 +1,22 @@
+[
+  { "key": "achievement", "value": "성취, 달성" },
+  { "key": "benefit", "value": "혜택, 이익, 혜택을 보다, 이익을 얻다" },
+  { "key": "conveniently", "value": "편리하게, 가깝게" },
+  { "key": "commute", "value": "통근, 통학, 통근하다, 통학하다" },
+  { "key": "arrival", "value": "도착, 도달, 도착의" },
+  { "key": "competive", "value": "대적하는, 경쟁의" },
+  { "key": "currently", "value": "현재, 일반적으로" },
+  { "key": "delivery", "value": "배달" },
+  { "key": "collection", "value": "수집(물), 소장(품), 징수" },
+  { "key": "demanding", "value": "요구가 많은, 까다로운" },
+  { "key": "necessarily", "value": "반드시" },
+  { "key": "enable", "value": "~할 수 있게 하다" },
+  { "key": "confidence", "value": "확신, 신임, 비밀" },
+  { "key": "hardly", "value": "거의 ~하지 않다" },
+  { "key": "instruct", "value": "가르치다, 지시하다" },
+  { "key": "description", "value": "설명, 묘사" },
+  { "key": "incorrect", "value": "부정확한" },
+  { "key": "launch", "value": "(신제품을) 출시 하다, 출시" },
+  { "key": "excess", "value": "초과(량)" },
+  { "key": "lasting", "value": "오래 지속되는" }
+]
