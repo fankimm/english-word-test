@@ -1,0 +1,25 @@
+[
+  { "key": "involve", "value": "포함시키다, 관련시키다" },
+  { "key": "expectation", "value": "예상, 기대" },
+  { "key": "massive", "value": "막대한, 대규모의" },
+  { "key": "slightly", "value": "약간, 조금" },
+  { "key": "lead", "value": "이끌다, 인도하다, (어떤 결과에) 이르다" },
+  { "key": "export", "value": "수출(품), 수출하다" },
+  { "key": "involved", "value": "관계된, 연루된" },
+  { "key": "maintain", "value": "관리하다, 유지하다" },
+  { "key": "phase", "value": "양상, 단계" },
+  { "key": "necessary", "value": "필요한, 없어서는 안 될, 필수품" },
+  { "key": "register", "value": "등록하다, 기재하다, 등록, 등기" },
+  {
+    "key": "raise",
+    "value": "(임금, 급여의) 인상, (수치, 액수 등을) 올리다, (의문을) 제기하다"
+  },
+  { "key": "qualified", "value": "자격 있는, 적격의" },
+  { "key": "prescribe", "value": "(약을) 처방하다, 규정하다" },
+  { "key": "recovery", "value": "회복, 쾌유" },
+  { "key": "upcoming", "value": "다가오는, 앞으로 올" },
+  { "key": "transfer", "value": "이동시키다, 전근시키다, 전근, 이동" },
+  { "key": "expense", "value": "비용, 지출, 경비" },
+  { "key": "remedy", "value": "해결책, 치료(제), 해결하다" },
+  { "key": "shortly", "value": "곧, 얼마 안 있어" }
+]
