@@ -1,0 +1,25 @@
+[
+  { "key": "reservation", "value": "예약, 보류" },
+  { "key": "related", "value": "관련된, 상관 있는" },
+  { "key": "timely", "value": "때에 알맞은, 시기 적절한" },
+  { "key": "continue", "value": "계속되다" },
+  { "key": "share", "value": "주식, 할당, 나누다, 공유하다" },
+  { "key": "satisfactory", "value": "만족스러운, 충분한" },
+  { "key": "easily", "value": "쉽게" },
+  {
+    "key": "release",
+    "value": "~을 공개하다, 발표하다, (영화 등을) 개봉하다, 발매, 출시"
+  },
+  { "key": "stage", "value": "단계, 무대, 상연하다" },
+  { "key": "temporary", "value": "일시적인, 임시의" },
+  { "key": "formally", "value": "공식적으로, 형식적으로" },
+  { "key": "tool", "value": "수단, 도구, 방편" },
+  { "key": "ambitious", "value": "야심을 품은, 의욕적인" },
+  { "key": "ideally", "value": "이상적으로, 더할 나위 없이" },
+  { "key": "accept", "value": "수락하다, 승낙하다" },
+  { "key": "attendant", "value": "수행원, 직원, 참석자" },
+  { "key": "deserved", "value": "~할 만한 가치가 있는" },
+  { "key": "budget", "value": "예산(안), 예산 계획을 세우다" },
+  { "key": "amount", "value": "총액, 총계, 양, (수, 액수, 양이)~가 되다" },
+  { "key": "entertaining", "value": "재미있는, 유쾌한" }
+]
